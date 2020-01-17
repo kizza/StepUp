@@ -1,0 +1,15 @@
+<properties>
+    <property id="PrimaryMetric" type="number">0</property>
+    <property id="Theme" type="number">-1</property>
+    <property id="EnlargeHours" type="boolean">true</property>
+    <property id="HourFont" type="number">0</property>
+    <property id="DialColour" type="number">-1</property>
+    <property id="BonusDialColour" type="number">-1</property>
+    <property id="MoveBarColour" type="number">-1</property>
+    <property id="MoveBarColourAlmostFull" type="number">-1</property>
+    <property id="MoveBarColourFull" type="number">-1</property>
+    <property id="HourColour" type="number">-1</property>
+    <property id="MinuteColour" type="number">-1</property>
+    <property id="DateColour" type="number">-1</property>
+    <property id="MetricColour" type="number">-1</property>
+</properties>

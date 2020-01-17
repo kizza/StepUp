@@ -1,0 +1,31 @@
+<resources>
+	<layout id="WatchFace">
+		<drawable class="Background" />
+
+		<drawable id="Date" class="HorizontalDate">
+			<param name="offset">74</param>
+			<param name="offsetAngle">0</param>
+		</drawable>
+
+		<drawable id="Time" class="DigitalFace" />
+
+		<drawable class="Metric">
+			<param name="metric">:steps</param>
+			<param name="offset">68</param>
+			<param name="offsetAngle">180</param>
+		</drawable>
+
+		<drawable id="Dial" class="PrimaryDial">
+			<param name="thickness">6</param>
+		</drawable>
+
+		<drawable class="MoveDial">
+			<param name="thickness">6</param>
+		</drawable>
+
+		<drawable class="Battery">
+			<param name="offset">74</param>
+			<param name="offsetAngle">124</param>
+		</drawable>
+	</layout>
+</resources>

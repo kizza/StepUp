@@ -1,0 +1,16 @@
+info face=font size=96 bold=0 italic=0 charset="" unicode=1 stretchH=100 smooth=1 aa=1 padding=2,2,2,2 spacing=0,0 outline=0
+common lineHeight=114 base=66 scaleW=158 scaleH=374 pages=1 packed=0
+page id=0 file="jura-96-bold.png"
+chars count=11
+char id=48 x=2 y=2 width=49 height=66 xoffset=8 yoffset=0 xadvance=66 page=0 chnl=15
+char id=49 x=2 y=70 width=23 height=65 xoffset=4 yoffset=0 xadvance=37 page=0 chnl=15
+char id=50 x=2 y=137 width=46 height=65 xoffset=4 yoffset=0 xadvance=55 page=0 chnl=15
+char id=51 x=27 y=70 width=49 height=65 xoffset=6 yoffset=0 xadvance=63 page=0 chnl=15
+char id=52 x=53 y=2 width=52 height=65 xoffset=4 yoffset=0 xadvance=60 page=0 chnl=15
+char id=53 x=2 y=204 width=48 height=65 xoffset=8 yoffset=0 xadvance=64 page=0 chnl=15
+char id=54 x=50 y=137 width=48 height=65 xoffset=8 yoffset=0 xadvance=64 page=0 chnl=15
+char id=55 x=78 y=69 width=43 height=65 xoffset=4 yoffset=0 xadvance=51 page=0 chnl=15
+char id=56 x=107 y=2 width=49 height=65 xoffset=8 yoffset=0 xadvance=65 page=0 chnl=15
+char id=57 x=2 y=271 width=48 height=65 xoffset=8 yoffset=0 xadvance=64 page=0 chnl=15
+char id=58 x=2 y=338 width=10 height=34 xoffset=8 yoffset=24 xadvance=26 page=0 chnl=15
+char id=32 x=0 y=0 width=0 height=0 xoffset=8 yoffset=24 xadvance=30 page=0 chnl=15

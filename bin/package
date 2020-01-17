@@ -1,0 +1,8 @@
+DEVICE=vivoactive3
+PRIVATE_KEY=/Users/keiran/Code/kizza/garmin/keys/developer_key.der
+SOURCES=`find source -name '*.mc'`
+RESOURCES=`find resources* -name '*.xml' | tr '\n' ':' | sed 's/.$$//'`
+APPNAME=`grep entry manifest.xml | sed 's/.*entry="\([^"]*\).*/\1/'`
+
+echo "~/.garmin/bin/monkeyc --warn -e --output dist/${APPNAME}.iq -y ${PRIVATE_KEY} -f monkey.jungle -d ${DEVICE}"
+~/.garmin/bin/monkeyc --warn -e --output dist/${APPNAME}.iq -y ${PRIVATE_KEY} -f monkey.jungle -d ${DEVICE}

@@ -1,0 +1,9 @@
+DEVICE=vivoactive3
+PRIVATE_KEY=/Users/keiran/Code/kizza/garmin/keys/developer_key.der
+APPNAME=`grep entry manifest.xml | sed 's/.*entry="\([^"]*\).*/\1/'`
+
+echo "Building (with unit tests)..."
+~/.garmin/bin/monkeyc --unit-test --warn --output dist/${APPNAME}.prg -y ${PRIVATE_KEY} -f monkey.jungle -d ${DEVICE}
+
+echo "Running tests..."
+~/.garmin/bin/monkeydo dist/${APPNAME}.prg ${DEVICE} -t

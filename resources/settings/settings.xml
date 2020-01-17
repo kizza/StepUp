@@ -1,0 +1,185 @@
+<settings>
+    <setting propertyKey="@Properties.Theme" title="@Strings.Theme">
+    	<settingConfig type="list">
+    		<listEntry value="-1">@Strings.Default</listEntry>
+    		<listEntry value="0xFF0000">@Strings.Red</listEntry>
+    		<listEntry value="0xFF5500">@Strings.Orange</listEntry>
+    		<listEntry value="0xFFFF00">@Strings.Yellow</listEntry>
+    		<listEntry value="0x00FF00">@Strings.Green</listEntry>
+    		<listEntry value="0x00AAFF">@Strings.Blue</listEntry>
+    		<listEntry value="0xAA00FF">@Strings.Purple</listEntry>
+    		<listEntry value="0xFF34B8">@Strings.Pink</listEntry>
+    		<listEntry value="0xFFFFFF">@Strings.White</listEntry>
+    		<listEntry value="0x00FFFF">@Strings.Aqua</listEntry>
+    		<listEntry value="0x56FFAC">@Strings.Mint</listEntry>
+    	</settingConfig>
+    </setting>
+
+
+    <!-- <setting propertyKey="@Properties.PrimaryMetric" title="@Strings.PrimaryMetric">
+    	<settingConfig type="list">
+    		<listEntry value="0">@Strings.Steps</listEntry>
+    	</settingConfig>
+    </setting> -->
+
+    <setting propertyKey="@Properties.DialColour" title="@Strings.DialColour">
+    	<settingConfig type="list">
+    		<listEntry value="-1">@Strings.UseFromTheme</listEntry>
+    		<listEntry value="0xFF0000">@Strings.Red</listEntry>
+    		<listEntry value="0xFF5500">@Strings.Orange</listEntry>
+    		<listEntry value="0xFFFF00">@Strings.Yellow</listEntry>
+    		<listEntry value="0x00FF00">@Strings.Green</listEntry>
+    		<listEntry value="0x00AAFF">@Strings.Blue</listEntry>
+    		<listEntry value="0xAA00FF">@Strings.Purple</listEntry>
+    		<listEntry value="0xFF34B8">@Strings.Pink</listEntry>
+    		<listEntry value="0xFFFFFF">@Strings.White</listEntry>
+    		<listEntry value="0x00FFFF">@Strings.Aqua</listEntry>
+    		<listEntry value="0x56FFAC">@Strings.Mint</listEntry>
+    	</settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.BonusDialColour" title="@Strings.BonusDialColour">
+    	<settingConfig type="list">
+    		<listEntry value="-1">@Strings.UseFromTheme</listEntry>
+    		<listEntry value="0xFF0000">@Strings.Red</listEntry>
+    		<listEntry value="0xFF5500">@Strings.Orange</listEntry>
+    		<listEntry value="0xFFFF00">@Strings.Yellow</listEntry>
+    		<listEntry value="0x00FF00">@Strings.Green</listEntry>
+    		<listEntry value="0x00AAFF">@Strings.Blue</listEntry>
+    		<listEntry value="0xAA00FF">@Strings.Purple</listEntry>
+    		<listEntry value="0xFF34B8">@Strings.Pink</listEntry>
+    		<listEntry value="0xFFFFFF">@Strings.White</listEntry>
+    		<listEntry value="0x00FFFF">@Strings.Aqua</listEntry>
+    		<listEntry value="0x56FFAC">@Strings.Mint</listEntry>
+    	</settingConfig>
+    </setting>
+
+	<!-- Labels -->
+
+    <setting propertyKey="@Properties.DateColour" title="@Strings.DateColour">
+    	<settingConfig type="list">
+    		<listEntry value="-1">@Strings.UseFromTheme</listEntry>
+    		<listEntry value="0xFF0000">@Strings.Red</listEntry>
+    		<listEntry value="0xFF5500">@Strings.Orange</listEntry>
+    		<listEntry value="0xFFFF00">@Strings.Yellow</listEntry>
+    		<listEntry value="0x00FF00">@Strings.Green</listEntry>
+    		<listEntry value="0x00AAFF">@Strings.Blue</listEntry>
+    		<listEntry value="0xAA00FF">@Strings.Purple</listEntry>
+    		<listEntry value="0xFF34B8">@Strings.Pink</listEntry>
+    		<listEntry value="0xFFFFFF">@Strings.White</listEntry>
+    		<listEntry value="0x00FFFF">@Strings.Aqua</listEntry>
+    		<listEntry value="0x56FFAC">@Strings.Mint</listEntry>
+    	</settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.MetricColour" title="@Strings.MetricColour">
+    	<settingConfig type="list">
+    		<listEntry value="-1">@Strings.UseFromTheme</listEntry>
+    		<listEntry value="0xFF0000">@Strings.Red</listEntry>
+    		<listEntry value="0xFF5500">@Strings.Orange</listEntry>
+    		<listEntry value="0xFFFF00">@Strings.Yellow</listEntry>
+    		<listEntry value="0x00FF00">@Strings.Green</listEntry>
+    		<listEntry value="0x00AAFF">@Strings.Blue</listEntry>
+    		<listEntry value="0xAA00FF">@Strings.Purple</listEntry>
+    		<listEntry value="0xFF34B8">@Strings.Pink</listEntry>
+    		<listEntry value="0xFFFFFF">@Strings.White</listEntry>
+    		<listEntry value="0x00FFFF">@Strings.Aqua</listEntry>
+    		<listEntry value="0x56FFAC">@Strings.Mint</listEntry>
+    	</settingConfig>
+    </setting>
+
+	<!-- Move bar -->
+
+    <setting propertyKey="@Properties.MoveBarColour" title="@Strings.MoveBarColour">
+    	<settingConfig type="list">
+    		<listEntry value="-1">@Strings.UseFromTheme</listEntry>
+    		<listEntry value="0xFF0000">@Strings.Red</listEntry>
+    		<listEntry value="0xFF5500">@Strings.Orange</listEntry>
+    		<listEntry value="0xFFFF00">@Strings.Yellow</listEntry>
+    		<listEntry value="0x00FF00">@Strings.Green</listEntry>
+    		<listEntry value="0x00AAFF">@Strings.Blue</listEntry>
+    		<listEntry value="0xAA00FF">@Strings.Purple</listEntry>
+    		<listEntry value="0xFF34B8">@Strings.Pink</listEntry>
+    		<listEntry value="0xFFFFFF">@Strings.White</listEntry>
+    		<listEntry value="0x00FFFF">@Strings.Aqua</listEntry>
+    		<listEntry value="0x56FFAC">@Strings.Mint</listEntry>
+    	</settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.MoveBarColourAlmostFull" title="@Strings.MoveBarColourAlmostFull">
+    	<settingConfig type="list">
+    		<listEntry value="-1">@Strings.UseFromTheme</listEntry>
+    		<listEntry value="0xFF0000">@Strings.Red</listEntry>
+    		<listEntry value="0xFF5500">@Strings.Orange</listEntry>
+    		<listEntry value="0xFFFF00">@Strings.Yellow</listEntry>
+    		<listEntry value="0x00FF00">@Strings.Green</listEntry>
+    		<listEntry value="0x00AAFF">@Strings.Blue</listEntry>
+    		<listEntry value="0xAA00FF">@Strings.Purple</listEntry>
+    		<listEntry value="0xFF34B8">@Strings.Pink</listEntry>
+    		<listEntry value="0xFFFFFF">@Strings.White</listEntry>
+    		<listEntry value="0x00FFFF">@Strings.Aqua</listEntry>
+    		<listEntry value="0x56FFAC">@Strings.Mint</listEntry>
+    	</settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.MoveBarColourFull" title="@Strings.MoveBarColourFull">
+    	<settingConfig type="list">
+    		<listEntry value="-1">@Strings.UseFromTheme</listEntry>
+    		<listEntry value="0xFF0000">@Strings.Red</listEntry>
+    		<listEntry value="0xFF5500">@Strings.Orange</listEntry>
+    		<listEntry value="0xFFFF00">@Strings.Yellow</listEntry>
+    		<listEntry value="0x00FF00">@Strings.Green</listEntry>
+    		<listEntry value="0x00AAFF">@Strings.Blue</listEntry>
+    		<listEntry value="0xAA00FF">@Strings.Purple</listEntry>
+    		<listEntry value="0xFF34B8">@Strings.Pink</listEntry>
+    		<listEntry value="0xFFFFFF">@Strings.White</listEntry>
+    		<listEntry value="0x00FFFF">@Strings.Aqua</listEntry>
+    		<listEntry value="0x56FFAC">@Strings.Mint</listEntry>
+    	</settingConfig>
+    </setting>
+
+	<!-- Clock -->
+
+    <!-- <setting propertyKey="@Properties.HourFont" title="@Strings.HourFont">
+    	<settingConfig type="list">
+    		<listEntry value="0">@Strings.HourFontOption1</listEntry>
+    		<listEntry value="1">@Strings.HourFontOption2</listEntry>
+    	</settingConfig>
+    </setting> -->
+
+    <setting propertyKey="@Properties.HourColour" title="@Strings.HourColour">
+    	<settingConfig type="list">
+    		<listEntry value="-1">@Strings.UseFromTheme</listEntry>
+    		<listEntry value="0xFF0000">@Strings.Red</listEntry>
+    		<listEntry value="0xFF5500">@Strings.Orange</listEntry>
+    		<listEntry value="0xFFFF00">@Strings.Yellow</listEntry>
+    		<listEntry value="0x00FF00">@Strings.Green</listEntry>
+    		<listEntry value="0x00AAFF">@Strings.Blue</listEntry>
+    		<listEntry value="0xAA00FF">@Strings.Purple</listEntry>
+    		<listEntry value="0xFF34B8">@Strings.Pink</listEntry>
+    		<listEntry value="0xFFFFFF">@Strings.White</listEntry>
+    		<listEntry value="0x00FFFF">@Strings.Aqua</listEntry>
+    		<listEntry value="0x56FFAC">@Strings.Mint</listEntry>
+    	</settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.MinuteColour" title="@Strings.MinuteColour">
+    	<settingConfig type="list">
+    		<listEntry value="-1">@Strings.UseFromTheme</listEntry>
+    		<listEntry value="0xFF0000">@Strings.Red</listEntry>
+    		<listEntry value="0xFF5500">@Strings.Orange</listEntry>
+    		<listEntry value="0xFFFF00">@Strings.Yellow</listEntry>
+    		<listEntry value="0x00FF00">@Strings.Green</listEntry>
+    		<listEntry value="0x00AAFF">@Strings.Blue</listEntry>
+    		<listEntry value="0xAA00FF">@Strings.Purple</listEntry>
+    		<listEntry value="0xFF34B8">@Strings.Pink</listEntry>
+    		<listEntry value="0xFFFFFF">@Strings.White</listEntry>
+    		<listEntry value="0x00FFFF">@Strings.Aqua</listEntry>
+    		<listEntry value="0x56FFAC">@Strings.Mint</listEntry>
+    	</settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.EnlargeHours" title="@Strings.EnlargeHours">
+    	<settingConfig type="boolean" />
+    </setting>
+</settings>

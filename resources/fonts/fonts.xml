@@ -1,0 +1,6 @@
+<fonts>
+  <font id="HourFont" filename="poiret-one-84.fnt" filter="0123456789" antialias="true" />
+  <font id="HourFontSporty" filename="jura-96-bold.fnt" filter="0123456789" antialias="true" />
+  <font id="DigitalFont" filename="poiret-one.fnt" filter="0123456789" antialias="true" />
+  <font id="IconFont" filename="icons.fnt" filter="0123456789" antialias="true" />
+</fonts>

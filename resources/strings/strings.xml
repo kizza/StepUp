@@ -1,0 +1,39 @@
+<strings>
+  <string id="AppName">Digital</string>
+
+  <string id="Theme">Theme</string>
+  <string id="PrimaryMetric">Primary metric</string>
+  <string id="Steps">Steps</string>
+
+  <string id="Default">(Default)</string>
+  <string id="UseFromTheme">(From theme)</string>
+
+  <string id="DialColour">Dial color</string>
+  <string id="BonusDialColour">Bonus dial color (past goal)</string>
+
+  <string id="MoveBarColour">Move bar color</string>
+  <string id="MoveBarColourAlmostFull">Move bar color: Almost full</string>
+  <string id="MoveBarColourFull">Move bar color: Full</string>
+
+  <string id="EnlargeHours">Enlarge hours</string>
+  <string id="HourColour">Hour color</string>
+  <string id="MinuteColour">Minute color</string>
+  <string id="DateColour">Date color</string>
+  <string id="MetricColour">Metric color</string>
+
+  <string id="White">White</string>
+  <string id="Black">Black</string>
+  <string id="Red">Red</string>
+  <string id="Orange">Orange</string>
+  <string id="Yellow">Yellow</string>
+  <string id="Green">Green</string>
+  <string id="Blue">Blue</string>
+  <string id="Purple">Purple</string>
+  <string id="Pink">Pink</string>
+  <string id="Aqua">Aqua</string>
+  <string id="Mint">Mint</string>
+
+  <string id="HourFont">Hour font</string>
+  <string id="HourFontOption1">(Default)</string>
+  <string id="HourFontOption2">Sporty?</string>
+</strings>
