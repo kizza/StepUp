@@ -16,11 +16,14 @@ class DigitalFace extends Ui.Drawable {
     }
 
     function draw(dc) {
-        var hours = clockTime.hour % 12;
+        var hours = clockTime.hour;
         var minutes = clockTime.min.format("%02d");
 
-        if (hours == 0) {
-            hours = 12;
+        if (!deviceSettings.is24Hour) {
+            hours = hours % 12;
+            if (hours == 0) {
+                hours = 12;
+            }
         }
 
         drawCenteredDigitalFace(dc, hours.toString(), minutes);

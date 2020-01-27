@@ -38,6 +38,7 @@ class ThemePreview {
     function previewData() {
         deviceSettings.notificationCount = 0;
         deviceSettings.phoneConnected = true;
+
         activityInfo.steps = 5432;
         activityInfo.stepGoal = 8000;
         activityInfo.calories = 23467;
