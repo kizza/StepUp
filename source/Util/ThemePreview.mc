@@ -1,29 +1,51 @@
 using Toybox.Application as App;
 using Toybox.System;
 
-var debugIndex = 0;
-var debugThemeIndex = 0;
+var tickCount = 0;
+var themeIndex = 0;
+var dataIndex = 0;
 
 class ThemePreview {
     function tick(dc) {
-        var colours = [Colours.RED, Colours.ORANGE, Colours.YELLOW, Colours.GREEN, Colours.BLUE, Colours.PURPLE, Colours.PINK, Colours.AQUA, Colours.MINT];
-
-        if (debugIndex % 2 == 0) {
-            App.getApp().setProperty("Theme", colours[debugThemeIndex]);
-
-            ThemePreview.mockData();
+        System.println("Tick " + tickCount);
+        if (tickCount % 2 == 0) {
+            ThemePreview.tickTheme();
+            ThemePreview.tickData();
 
             handleSettingsChange();
-
-            debugThemeIndex++;
-            if (debugThemeIndex > colours.size() - 1) {
-                debugThemeIndex = 0;
-            }
-
             View.onUpdate(dc);
         }
 
-        debugIndex++;
+        tickCount++;
+    }
+
+    function tickTheme() {
+        var colours = [
+            Colours.RED, Colours.ORANGE, Colours.YELLOW, Colours.GREEN, Colours.BLUE, Colours.PURPLE, Colours.PINK, Colours.AQUA, Colours.MINT
+        ];
+
+        App.getApp().setProperty("Theme", colours[themeIndex]);
+
+        themeIndex++;
+        if (themeIndex > colours.size() - 1) {
+            themeIndex = 0;
+        }
+    }
+
+    function tickData() {
+        if (dataIndex == 0) {
+            activityInfo.stepGoal = 1000;
+            clockTime.hour = 12;
+            clockTime.min = 35;
+        } else if (dataIndex == 1) {
+            clockTime.hour = 20;
+            clockTime.min = 35;
+        } else if (dataIndex >= 2) {
+            clockTime.hour = 20;
+            clockTime.min = 00;
+        }
+
+        dataIndex++;
     }
 
     function mockData() {
